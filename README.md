@@ -47,4 +47,4 @@ Run
         flutter pub get
     ```
 
-2. Settings(윈도우는 Preferences) > Build, Executeion, Deployment > Build Tools > Gradle > Gradle JDK를 11 선택 > Apply 및 OK
+2. Settings(윈도우는 Preferences) > Build, Executeion, Deployment > Build Tools > Gradle > Gradle JDK를 11 선택 > Apply 및 OK 후 실행
