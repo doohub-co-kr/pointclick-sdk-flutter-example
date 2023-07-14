@@ -1,5 +1,4 @@
 # pointclick_flutter_example
-====
 - 이 프로젝트는 Pointclick SDK Flutter 연동 예제 프로젝트입니다.
 - Flutter SDK 예제는 Android 4.1(Jelly Bean, API Level 16) 이상 기기와 JDK 11 이상에서 동작합니다.
 - 최신 버전의 Pointclick SDK 사용을 권장합니다.
