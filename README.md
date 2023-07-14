@@ -40,11 +40,11 @@ Installation
 
 Run
 ----
-3. Flutter 프로젝트로 전환
+1. Flutter 프로젝트로 전환
     - Flutter 프로젝트로 전환하기 위해 다음 2가지 flutter 명령어를 순차적으로 실행합니다.
     ```
         flutter clean
         flutter pub get
     ```
 
-4. Settings(윈도우는 Preferences) > Build, Executeion, Deployment > Build Tools > Gradle > Gradle JDK를 11 선택 > Apply 및 OK
+2. Settings(윈도우는 Preferences) > Build, Executeion, Deployment > Build Tools > Gradle > Gradle JDK를 11 선택 > Apply 및 OK
