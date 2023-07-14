@@ -14,7 +14,7 @@ void main() {
             child: Text('Open Offerwall'),
             onPressed: () async {
               print("Open Offerwall");
-              await FlutterPointClick.showOfferwall(title: "Test", pickerUid: "test");
+              await FlutterPointClick.showOfferwall(title: "Test", pickerUid: "test", buttonTemplateIdx: ButtonTemplate.OFFERWALL_BTN_PRIMARY);
             },
           ),
         )

@@ -29,12 +29,12 @@ android {
     compileSdkVersion flutter.compileSdkVersion
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '11'
     }
 
     sourceSets {
@@ -69,6 +69,8 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'kr.co.pointclick.sdk.offerwall:pointclick-sdk-offerwall-jdk1.8:1.0.10'
+    // PointClick Maven Remote Repo
+    implementation 'kr.co.pointclick.sdk.offerwall:pointclick-sdk-offerwall:1.1.01'
+
     implementation 'com.android.support:multidex:1.0.3'
 }
